@@ -17,7 +17,7 @@ namespace WormsDeathmatch
         {
             Idle = 0,
             Walk = 1,
-            Airbone = 2,
+            Airborne = 2,
             Jump = 3,
             Land = 4
         }
