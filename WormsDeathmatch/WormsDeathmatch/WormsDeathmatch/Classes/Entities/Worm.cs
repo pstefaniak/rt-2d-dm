@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -182,7 +182,7 @@ namespace WormsDeathmatch
                 if (FallDistance > 10 || Jumped)
                 {
                     AccuracyPenalty += DeltaTime;
-                    Animation.SetAnimation((int)WormAnimations.Airbone);
+                    Animation.SetAnimation((int)WormAnimations.Airborne);
 
                     if (Velocity.Y < 0)
                         Animation.SetFrame(0);
