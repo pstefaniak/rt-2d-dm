@@ -12,12 +12,12 @@ namespace WormsDeathmatch
         public Vector2 Position;
         public Vector2 Velocity;
 
-        private float _BoundigSphereRadiusSquared;
-        public float BoundigSphereRadiusSquared 
+        private float _BoundingSphereRadiusSquared;
+        public float BoundingSphereRadiusSquared 
         { 
             get 
             { 
-                return _BoundigSphereRadiusSquared; 
+                return _BoundingSphereRadiusSquared; 
             } 
         }
         private Vector2 _GroundCollisionSize;
@@ -41,9 +41,9 @@ namespace WormsDeathmatch
                 return _ProjectileCollisionSize; 
             } 
             set 
-            { 
+            {
                 _ProjectileCollisionSize = value; 
-                _BoundigSphereRadiusSquared = Math.Max(_ProjectileCollisionSize.X * _ProjectileCollisionSize.X, _ProjectileCollisionSize.Y * _ProjectileCollisionSize.Y); 
+                _BoundingSphereRadiusSquared = Math.Max(_ProjectileCollisionSize.X * _ProjectileCollisionSize.X, _ProjectileCollisionSize.Y * _ProjectileCollisionSize.Y); 
                 Bounds.Width = (int)_ProjectileCollisionSize.X; 
                 Bounds.Height = (int)_ProjectileCollisionSize.Y; 
             } 
