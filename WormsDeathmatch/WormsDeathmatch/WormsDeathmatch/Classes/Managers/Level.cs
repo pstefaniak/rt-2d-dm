@@ -91,15 +91,15 @@ namespace WormsDeathmatch
                     {
                         cStartingWeapon = Weapons[DefaultWeapon];
                     }
-                    else Console.WriteLine("Error loading data - default weapon not found.");
+                    else Console.WriteLine("Error loading data - default weapon not found."); //
                 }
-                else Console.WriteLine("Error loading data - default weapon string not found.");
+                else Console.WriteLine("Error loading data - default weapon string not found."); //
                
                 
             }
             else
             {
-                Console.WriteLine("Can't find file " + Path.GetFileName("Config.ini") + " from " + LevelName  + ". Loading default configuration.");
+                Console.WriteLine("Can't find file " + Path.GetFileName("Config.ini") + " from " + LevelName  + ". Loading default configuration."); //
             }
         }
 
