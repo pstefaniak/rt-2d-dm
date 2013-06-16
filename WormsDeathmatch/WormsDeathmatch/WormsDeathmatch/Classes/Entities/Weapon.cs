@@ -160,7 +160,7 @@ namespace WormsDeathmatch
             NewProjectile.GroundCollisionSize = new Vector2(1, 1);
 
 
-            Carrier.Level.Projectiles.Add(NewProjectile);
+            Carrier.Level.Projectiles.Add(NewProjectile); //
 
         }
 
