@@ -50,8 +50,9 @@ namespace Launcher
 
         public bool IsValid()
         {
-            if (tbName.Text == "Unnamed")
+            if (tbName.Text == "Unnamed") {
                 return false;
+            }
 
             if (cbMouse.SelectedIndex == -1)
                 return false;
