@@ -15,10 +15,10 @@ namespace WormsDeathmatch
     public class PlayerManager
     {
         public Level Level;
-        public Dictionary<int, Player> Players = new Dictionary<int, Player>();
+        public Dictionary<int, Player> Players = new Dictionary<int, Player>(); //
         public Color[] PlayerColors = { Color.Green, Color.Blue, Color.Red, Color.Yellow };
 
-        private int MaxID = 0;
+        private int MaxID = 0; //
         private int LocalPlayers = 0;
         private Vector2[] GUIPos = new Vector2[] { new Vector2(5, 5), new Vector2(695, 5) };
 
