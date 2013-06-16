@@ -26,6 +26,7 @@ namespace WormsDeathmatch
         public List<float> FrameLength = new List<float>();
         public Texture2D SpriteSheet = null;
 
+// nie ma doca?
         public void AddAnimation(int Width, int Height, int Count, float Length)
         {
             int Index = FrameCount.Count;
