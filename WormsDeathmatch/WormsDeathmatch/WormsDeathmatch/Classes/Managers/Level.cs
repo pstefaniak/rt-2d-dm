@@ -30,7 +30,7 @@ namespace WormsDeathmatch
         // Data
         public List<Worm> Worms = new List<Worm>();
 
-        public List<Projectile> Projectiles = new List<Projectile>();
+        public List<Projectile> Projectiles = new List<Projectile>(); // public ?
         public List<Projectile> ProjectilesToRemove = new List<Projectile>();
 
         public List<TextTag> TextTags = new List<TextTag>();
