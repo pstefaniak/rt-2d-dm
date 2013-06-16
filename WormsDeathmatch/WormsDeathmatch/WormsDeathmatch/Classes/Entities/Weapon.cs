@@ -20,7 +20,7 @@ namespace WormsDeathmatch
         public int ProjectileSpeed;
         public float ProjectileLifeTime = -10;
 
-        // Weapon stats
+        // Weapon stats 
         public float FireInterval;
         public float Recoil;
         public int MagazineSize;
